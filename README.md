@@ -46,6 +46,7 @@ Welcome to my personal portfolio website! This project showcases who I am, my sk
   - Contact Form & Info
 - External links to social profiles and certifications
 - Downloadable resume PDF
+- Add form submission functionality (e.g., via Formspree or Netlify Forms)
 
 ---
 
@@ -70,7 +71,7 @@ Welcome to my personal portfolio website! This project showcases who I am, my sk
 
 ## 💡 Future Improvements
 
-- Add form submission functionality (e.g., via Formspree or Netlify Forms)
+
 - Add dark mode toggle
 - Optimize images and loading time
 - Add project filter or category tabs
