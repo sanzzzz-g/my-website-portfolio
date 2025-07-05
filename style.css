@@ -384,6 +384,7 @@ btn-box .btn:nth-of-type(2):hover{
     color: white;
     font-size: 1.2em;
     outline: none;
+    width: 180%;
 }
 #contact form input::placeholder,
 #contact form textarea::placeholder{
@@ -391,7 +392,7 @@ btn-box .btn:nth-of-type(2):hover{
     opacity: 0.7;
 }
 #contact form button{
-    padding: 1em;
+    padding: 1em 2em;
     border-radius: 0.8em;
     border: none;
     background-color: white;
@@ -399,6 +400,7 @@ btn-box .btn:nth-of-type(2):hover{
     font-size: 1.2em;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    
 }
 #contact form button:hover{
     background-color: var(--background);
@@ -639,4 +641,12 @@ footer a:hover{
     color: #3e8eff;
     transform: scale(1.2);
     transition: all 0.3s ease;
+}
+
+#contact form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ✅ Enforces horizontal centering */
 }

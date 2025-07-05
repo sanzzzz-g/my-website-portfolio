@@ -163,16 +163,18 @@
 
    <!-- Contact Form Section -->
 <section id="contact">
-    <h1 class="header"><span> Contact </span></h1>
-    <div class="contact-box">
-        <form action="">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </div>
+  <h1 class="header"><span> Contact </span></h1>
+  <div class="contact-box">
+    <form id="contact-form" action="https://formspree.io/f/xdkzjrnj" method="POST">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Message" rows="10" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="form-status" style="margin-top: 1em; color: lightgreen;"></p>
+    </form>
+  </div>
 </section>
+
 
 
 <!-- Contact Info Section (Moved to bottom) -->
