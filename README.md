@@ -72,7 +72,7 @@ Welcome to my personal portfolio website! This project showcases who I am, my sk
 ## 💡 Future Improvements
 
 
-- Add dark mode toggle
+- Add light mode toggle
 - Optimize images and loading time
 - Add project filter or category tabs
 
